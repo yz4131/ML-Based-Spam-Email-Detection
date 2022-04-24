@@ -89,6 +89,7 @@ def lambda_handler(event, context):
                         'Charset': CHARSET,
                         'Data': reply,
                     },
+
                 },
                 'Subject': {
                     'Charset': CHARSET,
